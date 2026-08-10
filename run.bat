@@ -1,0 +1,1 @@
+gcc main.c types.c input.c validation.c conversion.c display.c -o main -g && main.exe
