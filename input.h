@@ -5,6 +5,6 @@
 
 DataType getDataType(void);
 
-int getInput(char* buffer, int size);
+int getInput(char* buffer, int size);  
 
 #endif

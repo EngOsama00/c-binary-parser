@@ -3,6 +3,6 @@
 
 #include "types.h"
 
-int validateValue(DataType type, const char* input);
+int validateValue(DataType type, const char* input); // تستقبلtype  input
 
 #endif

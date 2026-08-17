@@ -6,7 +6,9 @@
 
 void printHex(uint64_t value);
 
-void printBinary(uint64_t value, int bits);
+void valueToBytes(uint64_t value, uint8_t bytes[], int byteCount);
+
+void printBytesBinary(const uint8_t bytes[], int byteCount);
 
 void printIntegerResult(DataType type, const char* input);
 
